@@ -1,0 +1,38 @@
+.cardd {
+  display: flex;
+  margin: 10px;   
+  padding-top: 20px;
+}
+.card-image {
+  width: 150px;
+  border-radius: 50%; 
+}
+
+.image {
+  display: flex;
+   align-items: center;
+  justify-content: center;
+}
+.About {
+  display: flex;
+  font-weight: bold;
+  color: #06BC9B;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-div{
+position: relative;
+bottom: 0;
+/* height: 20px; */
+}
+.card-btn{
+  /* position: absolute; */
+  left: 120px;
+  width: 250px;
+  height: 50px;
+  background-color:#06BC9B;;
+  color: white;
+  
+}
