@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import { Table } from 'antd';
 
 function Contact() {
@@ -38,6 +39,13 @@ function Contact() {
         
         <div>
             <Table dataSource={dataSource} columns={columns} />;
+=======
+
+function Contact() {
+    return (
+        <div>
+            <h1>This is Contact</h1>
+>>>>>>> 2f2e6adceb13a9998452df8e5ff65400daace06e
         </div>
     )
 }

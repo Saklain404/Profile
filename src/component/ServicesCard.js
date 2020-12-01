@@ -8,7 +8,11 @@ import { Link } from 'react-router-dom';
 export const ServicesCard = ({ image, title, details, path }) => {
     return (
         <div className='cardd'>
+<<<<<<< HEAD
             <Card style={{ width: '20rem', backgroundColor: '#ddd',  }}>
+=======
+            <Card style={{ width: 370, backgroundColor: '#ddd' }}>
+>>>>>>> 2f2e6adceb13a9998452df8e5ff65400daace06e
                 <div className={'image'}>
                     <img src={image || photo} className='card-image' />
                 </div >
